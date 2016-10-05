@@ -1,0 +1,191 @@
+@import 'https://fonts.googleapis.com/css?family=Poiret+One';
+
+/*utalized the style sheet we did in class but made my own adjustments and stylings to my page*/
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* SOURCE: http://www.w3schools.com/css/tryit.asp?filename=trycss3_gradient-linear_ltr*/
+    background: -webkit-linear-gradient(left, pink , lightblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, pink, lightblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, pink, lightblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, pink, lightblue); /* Standard syntax (must be last) */
+   /* background: #111;*/
+}
+
+h1{
+	font-family: 'Poiret One', cursive;
+	color: white;
+	font-size: 42px;
+	margin-right: 5px;
+}
+
+p {
+	font-size: 12.8px;
+	margin-right: 5px;
+	color: white;
+}
+
+#container {
+  top: 5%;
+  width: 100vw;
+  position: absolute;
+}
+
+#container #search,
+#container #view{
+padding: 0px;
+}
+
+#container #search input, button{
+font-family: 'Poiret One', cursive;
+outline: none;
+border: none;
+font-size: 22px;
+padding: 15px 20px;
+}
+
+#container #search input{
+width: 380px;
+max-width: 100%;
+}
+
+#container #search button{
+width: 420px;
+margin-right: 5px;
+max-width: 100%;
+background-color: black;
+color: white;
+}
+
+#container #info .gallery-item{
+  margin: 10px;
+  width: 80vw;
+  float: left;
+  display: inline-block;
+}
+
+#info {
+margin-top: 50px;
+margin-left: 8%;
+}
+
+#footer {
+	margin-top: 50px;
+}
+
+
+@media screen and (min-width: 600px) and (min-device-width: 600px){
+#container #info .gallery-item {
+    width: calc(70vw / 2);
+  }
+  #info {
+    margin-left: 12%;
+  }
+}
+
+/*making the search box smaller at view width 700*/
+@media screen and (max-width: 600px) {
+  #container #search input {
+    text-align: center;
+    width: 270px; 
+    font-size: 15px;
+  }
+}
+/*making the search button smaller at view width 700*/
+@media screen and (max-width: 600px) {
+  #container #search button {
+    text-align: center;
+    width: 310px; 
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px; 
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 9px; 
+  }
+}
+
+
+
+@media screen and (min-width: 900px) and (min-device-width: 500px){
+  
+
+  #container #info .gallery-item {
+    width: calc(70vw / 3);
+  }
+
+  #info {
+    margin-left: 12%;
+  }
+
+  body{
+   
+    background: -webkit-linear-gradient(left, yellow , pink); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, yellow, pink); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, yellow , pink); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, yellow, pink); 
+  }
+}
+
+
+/*
+for mobile*/
+
+/*PORTRIAT*/
+@media screen and (max-device-width: 500px) and (orientation: portrait){
+  #container #search button {
+    text-align: center;
+    height: 95px;
+    width: 210px; 
+
+  }
+}
+
+@media screen and (max-device-width: 500px) and (orientation: portrait){
+  #container #search input {
+    text-align: center;
+    width: 170px; 
+    height: 20px;
+    font-size: 15px;
+  }
+
+  p {
+    visibility: hidden;
+  }
+
+  #search {
+    margin-top: -20px;
+  }
+  h1 {
+    font-size: 2.1em;
+  }
+
+}
+
+
+
+/*Landscape*/
+@media screen and (max-device-width: 500px) and (orientation: landscape){
+  body{
+    background: -webkit-linear-gradient(left, yellow , pink); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, yellow, pink); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, yellow , pink); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, yellow, pink); 
+  
+  }
+  h1 {
+    font-size: 2.4em;
+  }
+}
+

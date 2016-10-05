@@ -1,0 +1,82 @@
+[
+
+  {
+    "TopTeams": [
+      {
+        "QB": "Cam Newton",
+        "Rank": "1. Cam Newton, Car QB",
+        "Points": "373"
+      },
+      {
+        "QB": "Aaron Rodgers",
+        "Rank": "2. Aaron Rodgers, GB QB",
+        "Points": "286"
+      },
+      {
+        "QB": "Russell Wilson",
+        "Rank": "3. Russell Wilson, Sea QB",
+        "Points": "322"
+      },
+      {
+        "QB": "Andrew Luck",
+        "Rank": "4. Andrew Luck, Ind QB",
+        "Points": "126"
+      },
+      {
+        "QB": "Drew Brees",
+        "Rank": "5. Drew Brees, NO QB",
+        "Points": "299"
+      },
+      {
+        "QB": "Ben Roethlisberger",
+        "Rank": "6. Ben Roethlisberger, Pit QB",
+        "Points": "222"
+      },
+      {
+        "QB": "Carson Palmer",
+        "Rank": "7. Carson Palmer, Ari QB",
+        "Points": "300"
+      },
+      {
+        "QB": "Tom Brady",
+        "Rank": "8. Tom Brady, NE QB",
+        "Points": "335"
+      },
+      {
+        "QB": "Eli Manning",
+        "Rank": "9. Eli Manning, NYG QB",
+        "Points": "278"
+      },
+      {
+        "QB": "Blake Bortles",
+        "Rank": "10. Blake Bortles, Jax QB",
+        "Points": "302"
+      },
+      {
+        "QB": "Philip Rivers",
+        "Rank": "11. Philip Rivers, SD QB",
+        "Points": "277"
+      },
+      {
+        "QB": "Tyrod Taylor",
+        "Rank": "12. Tyrod Taylor, Buf QB",
+        "Points": "258"
+      },
+      {
+        "QB": "Kirk Cousins",
+        "Rank": "13. Kirk Cousins, Wsh QB",
+        "Points": "283"
+      },
+      {
+        "QB": "Derek Carr",
+        "Rank": "14. Derek Carr, Oak QB",
+        "Points": "262"
+      },
+      {
+        "QB": "Marcus Mariota",
+        "Rank": "15. Marcus Mariota, Ten QB",
+        "Points": "198"
+      }
+    ]
+  }
+]
