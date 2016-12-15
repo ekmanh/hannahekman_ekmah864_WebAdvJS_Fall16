@@ -1,0 +1,23 @@
+{
+  "name": "shirt_code",
+  "version": "1.0.0",
+  "description": "sockets final",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "sockets",
+    "shirt",
+    "code"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "file-saver": "^1.3.3",
+    "socket.io": "^1.7.1"
+  },
+  "devDependencies": {}
+}
